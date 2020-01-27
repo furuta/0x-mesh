@@ -471,7 +471,7 @@ export interface ContractEvent {
     txHash: string;
     txIndex: number;
     logIndex: number;
-    isRemoved: string;
+    isRemoved: boolean;
     address: string;
     kind: ContractEventKind;
     parameters: ContractEventParameters;
@@ -483,7 +483,7 @@ export interface WrapperContractEvent {
     txHash: string;
     txIndex: number;
     logIndex: number;
-    isRemoved: string;
+    isRemoved: boolean;
     address: string;
     kind: string;
     parameters: WrapperContractEventParameters;
